@@ -1,0 +1,4 @@
+genrule(
+    name = "headers",
+    tools = ["//bin:."]
+)

@@ -1,0 +1,7 @@
+load("@rules_perl//perl:perl.bzl", "perl_binary")
+
+perl_binary(
+    name = "syncqt",
+    srcs = ["syncqt.pl"],
+    data = ["//:sync.profile"],
+)
